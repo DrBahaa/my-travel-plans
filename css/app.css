@@ -43,8 +43,12 @@ body {
 
 h2 {
     margin: 0;
-    transform: rotate(-45deg);
+    transform: rotate(0);
     text-shadow: 0 0 5px #01579b;
+}
+
+h2:hover {
+    transition: transform 0.5s;
 }
 
 #florida {
@@ -57,3 +61,4 @@ h2 {
 h1 {
     text-align: center;
 }
+
